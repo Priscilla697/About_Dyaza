@@ -1,0 +1,220 @@
+.body{
+    background: linear-gradient(90deg, rgb(30, 224, 179),rgb(15, 168, 198),rgb(0, 140, 255));
+}
+
+.body_index{
+    background-image: url(asset/background.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.sub_text{
+    color: #003366;
+}
+
+.telp{
+    margin-left: 738px;
+    color: #003366;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    margin-left: 730px;
+    margin-top: 290px;
+    font-size: 30px;
+    line-height: 0.1;
+    color: 	#003366;
+}
+
+.title_more{
+    margin-left: 700px;
+    margin-top: 210px;
+    font-size: 30px;
+    line-height: 0.1;
+    color: 	#003366;
+}
+
+.foto_sky{
+    width: 700px;
+    height: 700px;
+}
+
+.button-about{
+    margin-left: 733px;
+    background-color: white;
+    color: 	#003366;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button-about:hover{
+    background-color: #003366;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.button-sertif{
+    margin-left: 10px;
+    background-color: white;
+    color: 	#003366;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button-sertif:hover{
+    background-color: #003366;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.button-back{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: white;
+    color: 	#003366;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button-back:hover{
+    background-color: #003366;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.button_more{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: white;
+    color: 	#003366;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button_more:hover{
+    background-color: #003366;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.baris-profil {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.baris-profil {
+    display: flex;       /* INI KUNCINYA agar sejajar sampingan */
+    align-items: center; /* Agar teks & foto rata tengah secara vertikal */
+    gap: 30px;           /* Jarak antara teks dan foto */
+    margin: 20px 50px;   /* Jarak dari pinggir layar */
+}
+
+.teks-satu {
+    flex: 2;             /* Teks mengambil ruang lebih banyak */
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.bingkai-foto {
+    flex: 1;             /* Foto mengambil ruang lebih sedikit */
+    text-align: center;
+}
+
+.bingkai-foto img {
+    max-width: 30s0px;    /* Tapi jangan sampai kegedean juga */
+    border-radius: 15px;
+}
+
+.foto1{
+    width: 250px;
+    height: 250px;
+}
+
+/* Gaya untuk paragraf lainnya */
+.teks-kanan { text-align: right; margin: 20px 50px; }
+.teks-kiri { text-align: left; margin: 20px 50px; }
+
+.baris-profil2 {
+    display: flex;       /* INI KUNCINYA agar sejajar sampingan */
+    align-items: center; /* Agar teks & foto rata tengah secara vertikal */
+    gap: 30px;           /* Jarak antara teks dan foto */
+    margin: 20px 50px;   /* Jarak dari pinggir layar */
+}
+
+.teks-dua {
+    flex: 2;             /* Teks mengambil ruang lebih banyak */
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.foto2{
+    width: 300px;
+    height: 250px;
+}
+
+.baris-profil3 {
+    display: flex;       /* INI KUNCINYA agar sejajar sampingan */
+    align-items: center; /* Agar teks & foto rata tengah secara vertikal */
+    gap: 30px;           /* Jarak antara teks dan foto */
+    margin: 20px 50px;   /* Jarak dari pinggir layar */
+}
+
+.teks-tiga {
+    flex: 2;             /* Teks mengambil ruang lebih banyak */
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.foto3{
+    width: 250px;
+    height: 250px;
+}
+
+.container-foto{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.container-foto a{
+    width: 30%;
+    text-decoration: none;
+}
+
+.container-foto img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.container-foto a img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.container-foto a:hover img{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
